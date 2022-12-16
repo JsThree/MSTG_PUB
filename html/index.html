@@ -1,0 +1,62 @@
+ <!DOCTYPE HTML>
+<html>
+  <head>
+    <title> Chat </title>
+    <meta name = "charset" charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "script.js"></script>
+    <script src= "socket.io/socket.io.js"></script>
+  </head>
+  <body onload = "onload()">
+    <div id = "Main">
+      <audio id = "Ding" src = "Ding.mp3"> </audio>
+      <h1 id = "Title"> Chat </h1>
+      <div id = "AccessPort">
+        <label id = "NameLabel"> Username  </label>
+        <input id = "NameInput" type = "text">
+        <br><br>
+        <label id = "IDLabel"> Chatroom </label>
+        <input id = "IDInput" value = "Room1" type = "text">
+        <input id = "ConnectButton" class = "Button" type = "submit" value = "Connect" onclick = "Connect()">
+      </div>
+      <h2 id = "RoomID"> Chatroom : None </h2>
+      <div id = "Chat">
+        <p id = "Message0" class = "Message"> - </p>
+        <p id = "Message1" class = "Message"> - </p>
+        <p id = "Message2" class = "Message"> - </p>
+        <p id = "Message3" class = "Message"> - </p>
+        <p id = "Message4" class = "Message"> - </p>
+        <p id = "Message5" class = "Message"> - </p>
+        <p id = "Message6" class = "Message"> - </p>
+        <p id = "Message7" class = "Message"> - </p>
+        <p id = "Message8" class = "Message"> - </p>
+        <p id = "Message9" class = "Message"> - </p>
+        <p id = "Message10" class = "Message"> - </p>
+        <p id = "Message11" class = "Message"> - </p>
+        <p id = "Message12" class = "Message"> - </p>
+        <p id = "Message13" class = "Message"> - </p>
+        <p id = "Message14" class = "Message"> - </p>
+        <p id = "Message15" class = "Message"> - </p>
+        <p id = "Message16" class = "Message"> - </p>
+        <p id = "Message17" class = "Message"> - </p>
+        <p id = "Message18" class = "Message"> - </p>
+        <p id = "Message19" class = "Message"> - </p>
+        <p id = "Message20" class = "Message"> - </p>
+        <p id = "Message21" class = "Message"> - </p>
+        <p id = "Message22" class = "Message"> - </p>
+        <p id = "Message23" class = "Message"> - </p>
+        <p id = "Message24" class = "Message"> - </p>
+        <p id = "Message25" class = "Message"> - </p>
+        <p id = "Message26" class = "Message"> - </p>
+        <p id = "Message27" class = "Message"> - </p>
+        <p id = "Message28" class = "Message"> - </p>
+        <p id = "Message29" class = "Message"> - </p>
+        <p id = "Message30" class = "Message"> - </p>
+        <label id = "MessageLabel"> Message </label>
+        <input id = "ComposedMessage" type = "text">
+      </div>
+      <br><br>
+    </div>
+  </body>
+</html>
